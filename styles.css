@@ -77,7 +77,7 @@ body .main .card p {
     width: 40%;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 525px) {
   body .card {
     width: 90%;
   }
