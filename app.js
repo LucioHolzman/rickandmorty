@@ -1,9 +1,9 @@
 const btn = document.getElementById('btn');
 const main = document.querySelector('.main');
-
 btn.addEventListener('click', e => {
     capture()
 })
+
 function capture() {
    fetch( "https://rickandmortyapi.com/api/character")
    .then(res => res.json())
@@ -24,4 +24,3 @@ function capture() {
     })
     .catch(error => console.error('Error', error));
 }
-    
