@@ -33,7 +33,7 @@ body .main .container-header button {
   font-size: 23px;
   color: #333;
   border: none;
-  background: radial-gradient(#f5f5f5, #333333);
+  background: radial-gradient(#3afff5, #505050);
   outline: none;
   font-weight: bold;
   cursor: pointer;
@@ -77,7 +77,7 @@ body .main .card p {
     width: 40%;
   }
 }
-@media (max-width: 525px) {
+@media (max-width: 450px) {
   body .card {
     width: 90%;
   }
